@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul{
@@ -26,12 +26,25 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
 header .list-items{
     display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list-items{
+    align-items: center;
+}
+
+.list-items li a{
+    color: #fff;
 }
 
 header .menu{
     justify-content: space-between;
 }
+
